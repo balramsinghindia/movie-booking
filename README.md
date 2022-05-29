@@ -2,7 +2,7 @@
 
 Steps to run: \
 `yarn install` \
-`yarn web` \
+`yarn web` 
 
 Screenshot: \
 ![screencapture-localhost-3000-2022-05-30-03_27_45 (1)](https://user-images.githubusercontent.com/2870345/170884591-670b9c00-ea40-46f7-a614-aa8fcaf44895.png)
