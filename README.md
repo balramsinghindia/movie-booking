@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Movie React Native App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Steps to run: \
+`yarn install` \
+`yarn web` \
 
-## Available Scripts
+Screenshot: \
+![screencapture-localhost-3000-2022-05-30-03_27_45 (1)](https://user-images.githubusercontent.com/2870345/170884591-670b9c00-ea40-46f7-a614-aa8fcaf44895.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## React web site
+### Current Features
+- Default first movie is selected on the first screen.
+- Users can reserve a seat from the right side section.
+- Users can change movies by clicking any movie name and reserving a seat from the right side section.
+- After seat reservation user would see the total price of seats booked.
+- The website is accessibility supported.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Todo
+- Mobile  and tablet design
+- Hosting in AWS S3
+- Move movie data and other data in separate constant files. 
+- Get Movies data from API using Fetch
+- Write Movies API in Next JS
+- Write unit test cases
+- Move React components into separate files
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## React Native Mobile App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Current Features:
+- Display a list of movies
+- The first movie is selected by default
+- Users can change movies by clicking on the movie name list.
+- Users can reserve a seat from the right side section
+- After the seat reservation, the price is displayed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Todo:
+- Finish styling of the app.
+- Code formatting and move React Native components in separate files. 
+- Move movie data and other data in separate constant files. 
+- Get movie data via API
+- Write API in Next JS to return movie data
+- Host this app in App Center
+- Write Unit test cases
